@@ -1,0 +1,90 @@
+/*===================
+GENERAL
+===================*/
+
+*{
+    padding: 0;
+    margin: 0;
+    color: var(--color-text);
+}
+
+:root{
+    --color-text: #353c4c;
+    --color-white: #f5f5f5;
+    --color-red: #dc3545;
+}
+
+p{
+    font-size: 0.8rem;
+}
+a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 0.9rem;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*===================
+HEADER
+===================*/
+
+header{
+    z-index: -1;
+    background-image: url(assets/header-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header *{
+    color: var(--color-white);
+}
+.header-content{
+    background-image: url(assets/people.png);
+    background-size: 40%;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.header-content>*{
+    height: 100%;
+}
+[class^="header-link"]{
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 0.9rem;
+    transition: color 0.6s;
+}
+.header-link--current{
+    color: var(--color-red);
+}
+[class^="header-link"]:hover{
+    text-decoration: none;
+    color: var(--color-red);
+    cursor: pointer;
+}
+
+.btn-danger{
+    transition: background-color 0.6s, box-shadow 0.6s;
+}
+.btn-danger:hover{
+    box-shadow: 0px 0px 15px var(--color-red);
+}
+
+/*===================
+MAIN
+===================*/
+
+/*STATS*/
+.stats{
+    background-image: url(assets/statistics-bg.png);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 0px 6px var(--color-text);
+}
+
+.stats__icon{
+    
+}
