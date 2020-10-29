@@ -9,20 +9,20 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
-    <header class="container-fluid pt-3">
+    <header class="container-fluid d-flex flex-column align-items-center pt-5">
         <nav class="container-lg row justify-content-between align-items-center">
             <img src="assets/coronavirus-logo.png" alt="logo" class="">
             <div class="">
-                <a href="#" class="header-link--current">HOME</a>
-                <a href="#" class="header-link">COVID-19</a>
-                <a href="#" class="header-link">PREVENTION</a>
-                <a href="#" class="header-link">BLOG</a>
-                <a href="#" class="header-link">CONTACT US</a>
+                <a href="#" class="mr-5 header-link--current">HOME</a>
+                <a href="#" class="mr-5 header-link">COVID-19</a>
+                <a href="#" class="mr-5 header-link">PREVENTION</a>
+                <a href="#" class="mr-5 header-link">BLOG</a>
+                <a href="#" class="mr-5 header-link">CONTACT US</a>
                 <a href="#" class="btn btn-danger rounded-pill">CALL A DOCTOR</a>
             </div>
         </nav>
-        <div class="header-content row justify-content-center">
-            <div class="col-lg-8 col-md-10 col-12 row align-items-center">
+        <div class="container-fluid header-content row justify-content-center">
+            <div class="col-lg-10 col-md-11 col-12 row align-items-center">
                 <div class="col">
                     <h1 class="">
                         <strong>COVID-19</strong><br>
@@ -39,23 +39,23 @@
     <main class="d-flex flex-column align-items-center">
         <!-- STATS -->
         <section class="stats container-fluid row justify-content-center">
-            <div class="container-lg row justify-content-center">
-                <article class="col-sm-3 col-6">
+            <div class="container-lg row justify-content-center mt-4 mb-4">
+                <article class="col-sm-3 col-6 d-flex flex-column align-items-center">
                     <canvas class="stats-icon"></canvas>
                     <p class="text-center">Total Confirmed Cases</p>
                     <p class="stats-stat text-center">882,068</p>
                 </article>
-                <article class="col-sm-3 col-6">
+                <article class="col-sm-3 col-6 d-flex flex-column align-items-center">
                     <canvas class="stats-icon"></canvas>
                     <p class="text-center">Total Deaths</p>
                     <p class="stats-stat text-center">37,384</p>
                 </article>
-                <article class="col-sm-3 col-6">
+                <article class="col-sm-3 col-6 d-flex flex-column align-items-center">
                     <canvas class="stats-icon"></canvas>
                     <p class="text-center">Recovered</p>
                     <p class="stats-stat text-center">185,067</p>
                 </article>
-                <article class="col-sm-3 col-6">
+                <article class="col-sm-3 col-6 d-flex flex-column align-items-center">
                     <canvas class="stats-icon"></canvas>
                     <p class="text-center">Countries</p>
                     <p class="stats-stat text-center">190+</p>
@@ -65,10 +65,10 @@
 
         <!-- WHAT'S CORONAVIRUS -->
         <section class="container-lg row justify-content-center align-items-center mt-5">
-            <div class="col-5">
+            <div class="col-md-5 col-8">
                 <img src="assets/covid-19.png" alt="coronavirus illustration" class="img-fluid">
             </div>
-            <div class="col-4">
+            <div class="col-md-4 col-10">
                 <h2><strong>What is Coronavirus?</strong></h2>
                 <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</p>
                 <p>Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
@@ -80,154 +80,213 @@
         </section>
 
         <!-- SYMPTOMS -->
-        <section class="container-lg d-flex flex-column align-items-center mt-5">
-            <div>
+        <section class="container-fluid">
+            <div class="container-lg d-flex flex-column align-items-center mt-5">
                 <h2><strong>Symptoms Of Coronavirus</strong></h2>
                 <p>The most common symtoms of COVID-19 are fever, tiredness, and dry cough.</p>
-                <div class="row">
-                    <article class="col-4">
-                        <canvas></canvas>
-                        <h3 class="h5"><strong>Headache</strong></h3>
-                        <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
-                    </article>
-                    <article class="col-4">
-                        <canvas></canvas>
-                        <h3 class="h5"><strong>High Fever</strong></h3>
-                        <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
-                    </article>
-                    <article class="col-4">
-                        <canvas></canvas>
-                        <h3 class="h5"><strong>Dry Cough</strong></h3>
-                        <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
-                    </article>
-                    <article class="col-4">
-                        <canvas></canvas>
-                        <h3 class="h5"><strong>Shortness Of Breath</strong></h3>
-                        <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
-                    </article>
-                    <article class="col-4">
-                        <canvas></canvas>
-                        <h3 class="h5"><strong>Sore Throat</strong></h3>
-                        <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
-                    </article>
-                    <article class="col-4">
-                        <canvas></canvas>
-                        <h3 class="h5"><strong>Aches And Pain</strong></h3>
-                        <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
-                    </article>
+                <div class="row align-items-center justify-content-center">
+                        <article class="col-md-4 col-6 d-flex flex-column align-items-center">
+                            <canvas class="symptoms-icon"></canvas>
+                            <h3 class="h5 pt-2 text-center"><strong>Headache</strong></h3>
+                            <p class="text-center">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
+                        </article>
+                        <article class="col-md-4 col-6 d-flex flex-column align-items-center">
+                            <canvas class="symptoms-icon"></canvas>
+                            <h3 class="h5 pt-2 text-center"><strong>High Fever</strong></h3>
+                            <p class="text-center">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
+                        </article>
+                        <article class="col-md-4 col-6 d-flex flex-column align-items-center">
+                            <canvas class="symptoms-icon"></canvas>
+                            <h3 class="h5 pt-2 text-center"><strong>Dry Cough</strong></h3>
+                            <p class="text-center">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
+                        </article>
+                        <article class="col-md-4 col-6 d-flex flex-column align-items-center">
+                            <canvas class="symptoms-icon"></canvas>
+                            <h3 class="h5 pt-2 text-center"><strong>Shortness Of Breath</strong></h3>
+                            <p class="text-center">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
+                        </article>
+                        <article class="col-md-4 col-6 d-flex flex-column align-items-center">
+                            <canvas class="symptoms-icon"></canvas>
+                            <h3 class="h5 pt-2 text-center"><strong>Sore Throat</strong></h3>
+                            <p class="text-center">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
+                        </article>
+                        <article class="col-md-4 col-6 d-flex flex-column align-items-center">
+                            <canvas class="symptoms-icon"></canvas>
+                            <h3 class="h5 pt-2 text-center"><strong>Aches And Pain</strong></h3>
+                            <p class="text-center">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
+                        </article>
                 </div>
             </div>
         </section>
         
         <!-- PROTECT YOURSELF -->
-        <section class="container-lg">
+        <section class="container-lg d-flex flex-column align-items-center mt-5 mb-5">
             <h2><strong>How To Protect Yourself</strong></h2>
-            <p>You can protect yourself by washing your hands frequently, avoid touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell.</p>
-            <div>
-                <article>
-                    <h3 class="h5"><strong>Wash Your Hands</strong></h3>
-                    <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
-                    <canvas></canvas>
-                </article>
-                <article>
-                    <h3 class="h5"><strong>Avoid Close Contact</strong></h3>
-                    <p>Minimize close contact with persons who have symptoms of respiratory illness, such as coughing or sneezing.</p>
-                    <canvas></canvas>
-                </article>
-                <article>
-                    <h3 class="h5"><strong>Wear Mask</strong></h3>
-                    <p>If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.</p>
-                    <canvas></canvas>
-                </article>
-                <article>
-                    <h3 class="h5"><strong>Cover Your Nose & Mouth</strong></h3>
-                    <p>Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze.</p>
-                    <canvas></canvas>
-                </article>
-                <article>
-                    <h3 class="h5"><strong>Maintain Social Distancing</strong></h3>
-                    <p>Maintain at least 1 meter (3 feet) distance between yourself and anyone who is coughing or sneezing.</p>
-                    <canvas></canvas>
-                </article>
-                <article>
-                    <h3 class="h5"><strong>Avoid Touching Your Face</strong></h3>
-                    <p>Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth.</p>
-                    <canvas></canvas>
-                </article>
+            <div class="row align-items-center justify-content-center">
+                <p class="col-8 text-center">You can protect yourself by washing your hands frequently, avoid touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell.</p>
+            </div>
+            <div class="protect-content row justify-content-around mt-3">
+                <div class="col-md-4 col-10">
+                    <article class="flex-row d-none d-md-flex">
+                        <div class="mr-3">
+                            <h3 class="h6 text-right"><strong>Wash Your Hands</strong></h3>
+                            <p class="text-right">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
+                        </div>
+                        <canvas class="protect-icon-left"></canvas>
+                    </article>
+                    <article class="flex-row d-none d-md-flex">
+                        <div class="mr-3">
+                            <h3 class="h6 text-right"><strong>Avoid Close Contact</strong></h3>
+                            <p class="text-right">Minimize close contact with persons who have symptoms of respiratory illness, such as coughing or sneezing.</p>
+                        </div>
+                        <canvas class="protect-icon-left"></canvas>
+                    </article>
+                    <article class="flex-row d-none d-md-flex">
+                        <div class="mr-3">
+                            <h3 class="h6 text-right"><strong>Wear Mask</strong></h3>
+                            <p class="text-right">If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.</p>
+                        </div>
+                        <canvas class="protect-icon-left"></canvas>
+                    </article>
+                </div>
+                <div class="col-md-4 col-10">
+                    <article class="d-flex flex-row d-md-none">
+                        <canvas class="protect-icon-right"></canvas>
+                        <div class="ml-3">
+                            <h3 class="h6"><strong>Wash Your Hands</strong></h3>
+                            <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water</p>
+                        </div>
+                    </article>
+                    <article class="d-flex flex-row d-md-none">
+                        <canvas class="protect-icon-right"></canvas>
+                        <div class="ml-3">
+                            <h3 class="h6"><strong>Avoid Close Contact</strong></h3>
+                            <p>Minimize close contact with persons who have symptoms of respiratory illness, such as coughing or sneezing.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex flex-row d-md-none">
+                        <canvas class="protect-icon-right"></canvas>
+                        <div class="ml-3">
+                            <h3 class="h6"><strong>Wear Mask</strong></h3>
+                            <p>If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex flex-row">
+                        <canvas class="protect-icon-right"></canvas>
+                        <div class="ml-3">
+                            <h3 class="h6"><strong>Cover Your Nose & Mouth</strong></h3>
+                            <p>Cover your nose and mouth with a disposable tissue or flexed elbow when you cough or sneeze.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex flex-row">
+                        <canvas class="protect-icon-right"></canvas>
+                        <div class="ml-3">
+                            <h3 class="h6"><strong>Maintain Social Distancing</strong></h3>
+                            <p>Maintain at least 1 meter (3 feet) distance between yourself and anyone who is coughing or sneezing.</p>
+                        </div>
+                    </article>
+                    <article class="d-flex flex-row">
+                        <canvas class="protect-icon-right"></canvas>
+                        <div class="ml-3">
+                            <h3 class="h6"><strong>Avoid Touching Your Face</strong></h3>
+                            <p>Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth.</p>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
 
-        <!-- GET UPDATES -->
-        <section class="container-lg">
-            <div>
-                <h2><strong>
-                    Covid-19<br> 
+        <!-- SUBSCRIBE -->
+        <section class="subscribe container-fluid d-flex align-items-center justify-content-center">
+            <div class="container-lg row justify-content-between align-items-center">
+                <h2 class="subscribe-text col-md-5 col-12">
+                    <strong>Covid-19</strong><br> 
                     <span>All Live Updates</span>
-                </strong></h2>
-                <div>
-                    <input type="email">
-                    <button>SUBSCRIBE</button>
+                </h2>
+                <div class="col-md-7 col-12 d-flex align-items-center justify-content-end">
+                    <input type="email" class="email rounded-pill pl-4" placeholder="Enter your email address">
+                    <button class="btn btn-danger rounded-pill">SUBSCRIBE</button>
                 </div>
             </div>
         </section>
 
         <!-- FREQUENTLY ASKED QUESTIONS -->
-        <section class="container-lg">
+        <section class="container-lg d-flex flex-column align-items-center justify-content-center mt-5">
             <h2><strong>Frequently Asked Questions</strong></h2>
             <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
-            <div>
-                <div>
-                    <article>
-                        <button></button>
-                        <h3 class="h5"><strong>What is a novel coronavirus?</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+            <div class="row justify-content-around">
+                <div class="col-lg-4 col-7">
+                    <article class="mb-3">
+                        <div class="row align-items-center mb-3">
+                            <input class="faq__button mr-2" type="checkbox" data-toggle="collapse" href="#faq__answer1">
+                            <h3 class="h5 mb-0"><strong>What is a novel coronavirus?</strong></h3>
+                        </div>
+                        <p id="faq__answer1" class="collapse faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
                     </article>
-                    <article>
-                        <button></button>
-                        <h3 class="h5"><strong>Why is the disease being called COVID-19</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+                    <article class="mb-3">
+                        <div class="row align-items-center mb-3">
+                            <input class="faq__button mr-2" type="checkbox" data-toggle="collapse" href="#faq__answer2">
+                            <h3 class="h5 mb-0"><strong>Why is the disease being called COVID-19</strong></h3>
+                        </div>
+                        <p id="faq__answer2" class="collapse faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
                     </article>
-                    <article>
-                        <button></button>
-                        <h3 class="h5"><strong>How can people help stop stigma related to COVID-19?</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+                    <article class="mb-3">
+                        <div class="row align-items-center mb-3">
+                            <input class="faq__button mr-2" type="checkbox" data-toggle="collapse" href="#faq__answer3">
+                            <h3 class="h5 mb-0"><strong>How can people help stop stigma related to COVID-19?</strong></h3>
+                        </div>
+                        <p id="faq__answer3" class="collapse faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
                     </article>
-                    <article>
-                        <button></button>
-                        <h3 class="h5"><strong>What is the source of the virus?</strong></h3>
-                        <p>Aliens</p>
+                    <article class="mb-3">
+                        <div class="row align-items-center mb-3">
+                            <input class="faq__button mr-2" type="checkbox" data-toggle="collapse" href="#faq__answer4">
+                            <h3 class="h5 mb-0"><strong>What is the source of the virus?</strong></h3>
+                        </div>
+                        <p id="faq__answer4" class="collapse faq__answer">Aliens</p>
                     </article>
-                    <article>
-                        <button></button>
-                        <h3 class="h5"><strong>How does the virus spread?</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+                    <article class="mb-3">
+                        <div class="row align-items-center mb-3">
+                            <input class="faq__button mr-2" type="checkbox" data-toggle="collapse" href="#faq__answer5">
+                            <h3 class="h5 mb-0"><strong>How does the virus spread?</strong></h3>
+                        </div>
+                        <p id="faq__answer5" class="collapse faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
                     </article>
                 </div>
-                <div>
-                    <article>
-                        <button></button>
-                        <h3 class="h5"><strong>What is a novel coronavirus?</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+                <div class="col-lg-4 col-7">
+                    <article class="mb-3">
+                        <div class="row align-items-center mb-3">
+                            <input class="faq__button mr-2" type="checkbox" data-toggle="collapse" href="#faq__answer6">
+                            <h3 class="h5 mb-0"><strong>What is a novel coronavirus?</strong></h3>
+                        </div>
+                        <p id="faq__answer6" class="collapse faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
                     </article>
-                    <article>
-                        <button></button>
-                        <h3 class="h5"><strong>Why is the disease being called COVID-19</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+                    <article class="mb-3">
+                        <div class="row align-items-center mb-3">
+                            <input class="faq__button mr-2" type="checkbox" data-toggle="collapse" href="#faq__answer7">
+                            <h3 class="h5 mb-0"><strong>Why is the disease being called COVID-19</strong></h3>
+                        </div>
+                        <p id="faq__answer7" class="collapse faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
                     </article>
-                    <article>
-                        <button></button>
-                        <h3 class="h5"><strong>How can people help stop stigma related to COVID-19?</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+                    <article class="mb-3">
+                        <div class="row align-items-center mb-3">
+                            <input class="faq__button mr-2" type="checkbox" data-toggle="collapse" href="#faq__answer8">
+                            <h3 class="h5 mb-0"><strong>How can people help stop stigma related to COVID-19?</strong></h3>
+                        </div>
+                        <p id="faq__answer8" class="collapse faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
                     </article>
-                    <article>
-                        <button></button>
-                        <h3 class="h5"><strong>What is the source of the virus?</strong></h3>
-                        <p>Donald Trump</p>
+                    <article class="mb-3">
+                        <div class="row align-items-center mb-3">
+                            <input class="faq__button mr-2" type="checkbox" data-toggle="collapse" href="#faq__answer9">
+                            <h3 class="h5 mb-0"><strong>What is the source of the virus?</strong></h3>
+                        </div>
+                        <p id="faq__answer9" class="collapse faq__answer">Donald Trump</p>
                     </article>
-                    <article>
-                        <button></button>
-                        <h3 class="h5"><strong>How does the virus spread?</strong></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
+                    <article class="mb-3">
+                        <div class="row align-items-center mb-3">
+                            <input class="faq__button mr-2" type="checkbox" data-toggle="collapse" href="#faq__answer10">
+                            <h3 class="h5 mb-0"><strong>How does the virus spread?</strong></h3>
+                        </div>
+                        <p id="faq__answer10" class="collapse faq__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
                     </article>
                 </div>
             </div>
@@ -334,5 +393,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="scripts/canvasStats.js"></script>
+    <script src="scripts/canvasSymptoms.js"></script>
+    <script src="scripts/canvasProtect.js"></script>
 </body>
 </html>
